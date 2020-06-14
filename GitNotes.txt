@@ -1,0 +1,17 @@
+git config --global user.name "Your Name"       // include the quotes
+git config --global user.email "your@email.com" // include the quotes
+
+git status // check the status of the repository
+
+git add fileName.java   // this command adds the file to the staging area so they can be tracked
+git add .               // adds ALL the files in the folder to the staging area
+git add file1.java file2.py file3.c     // add multiple files to the staging area
+
+git commit -m "Commit message notes"    // finally save a snapshot of the code at a particular point in time 
+                                        // include the quotes
+
+git log     // see the commit history for the project
+
+git checkout <commit-hash>      // reroll back to a previous stage of your entire project code
+                                // the commit-hash is found in the log. Don't include brackets
+
