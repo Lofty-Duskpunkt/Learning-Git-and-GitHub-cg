@@ -22,4 +22,12 @@ git checkout <commit-hash>      // reroll back to a previous stage/snapshot of y
 // If you wanted to work on developing a new idea for this crazy large program, you can create a 
 //      new branch that is apart from the main branch so that you're not touching the "official"
 //      stable version of the program.
-
+git branch      // returns what branch you're on and a list of branches
+git checkout master     // go back to the top of the master branch
+git branch <new-branch-name>    // create another timeline where you can experiment new additions
+                                //  to the master code
+git checkout <branch-name>      // navigate to a different branch
+git checkout -b <new-branch-name>   // create a new timeline and change to it 
+git branch -d <branch-name>     // delete a branch
+git merge <branch-name>         // finally merge all the new tried and tested features of a timeline idea
+                                //  into the master branch.
