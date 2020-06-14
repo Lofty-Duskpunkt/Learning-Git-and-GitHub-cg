@@ -1,3 +1,6 @@
+Notes Link:
+https://www.notion.so/Introduction-to-Git-ac396a0697704709a12b6a0e545db049
+
 git config --global user.name "Your Name"       // include the quotes
 git config --global user.email "your@email.com" // include the quotes
 
