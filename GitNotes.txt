@@ -12,6 +12,6 @@ git commit -m "Commit message notes"    // finally save a snapshot of the code a
 
 git log     // see the commit history for the project
 
-git checkout <commit-hash>      // reroll back to a previous stage of your entire project code
+git checkout <commit-hash>      // reroll back to a previous stage/snapshot of your entire project code
                                 // the commit-hash is found in the log. Don't include brackets
 
